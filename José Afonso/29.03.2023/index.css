@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient( -90deg , rgb(255, 230, 0),#fc9a38);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    background-color: #fc9a38;
+}
+ul{
+    list-style: none;
+    color: black;
+}
+li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+img{
+    height: 20rem;
+    width: 35rem;
+}
+ol{
+    color: black;
+}
+a{
+    background-color: #fc9a38;
+    border-radius: 50% solid, #c26405;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #0059ff;
+    background-color: white;
+}
+p{
+    justify-content: left;
+}

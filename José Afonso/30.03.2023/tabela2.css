@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: white;
+}
+table, td{border: solid 2px limegreen;
+}
+table{width: 500px;
+}

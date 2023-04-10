@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+table, td{border: solid px limegreen;
+    border-radius: 2px;
+}
+table{width: 500px;
+}
+th{text-align: left;
+    color: white;
+    background-color: darkturquoise;
+    border-radius: 2px;
+}
+.caixa1{
+    color:  darkturquoise;
+    background-color: rgb(219, 213, 213);
+}
+td{
+    background-color: white;
+}

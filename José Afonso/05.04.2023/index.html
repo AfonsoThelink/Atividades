@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+        <legend>Cadastro</legend>
+        <br>
+        <label for="cNome">Nome:</label>
+        <input type="text" id="cNome"  required>
+        <br><br>
+        <p>Onde você mora?</p> <br>
+        <input type="radio">
+        <label for="cCidade">São Paulo</label> <br>
+        <input type="radio">
+        <label for="cCidade">Interior</label> <br> <br>
+
+        </fieldset>
+        <p>qual meio de transporte você utiliza?</p> <br>
+        <input type="checkbox"> 
+        <label for="">Carro</label>
+        <br>
+        <input type="checkbox"> 
+        <label for="">Metro</label>
+        <br>
+        <input type="checkbox"> 
+        <label for="">Busão</label>
+        <br>
+        <br>
+        <label for="time">Selecione seu times</label>
+        <br>
+        <select name="" id="">
+            <option value="1">Palmeiras</option>
+            <option value="2">Santos</option>
+            <option value="3">São Paulo</option>
+            <option value="4" selected>Selecione seu time</option>
+
+        </select><br><br>
+        <label>Escolha sua cidade </label><br>
+        <input autocomplete="on" list="cidades">
+        <datalist id="cidades">
+            <option value="São Paulo"></option>
+            <option value="São Sebastião"></option>
+            <option value="São Bernado"></option>
+            <option value="Guarulhos"></option>
+            <option value="Santos"></option>
+        </datalist>
+        0 <input type="range"> 100
+        <br> <br>
+        <label for=""></label> <br>
+        <textarea cols="45" rows="10"></textarea>
+
+        <br> 
+        <br>
+        <input type="submit" value="encaminhar">
+    
+    </form>
+
+
+</body>
+</html>

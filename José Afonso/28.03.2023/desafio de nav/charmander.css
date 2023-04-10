@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 81, 0);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    width: 10rem;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
